@@ -146,7 +146,7 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" width="200px"></div>
+              <div class="pic"><img src="assets/img/team/Team-4.jpg" class="img-fluid" alt="" width="200px"></div>
               <div class="member-info">
                 <h4>Heru Setiawan Saputra</h4>
                 <span>Anggota Kelompok KOMODO</span>
@@ -179,7 +179,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" width="200px"></div>
+              <div class="pic"><img src="assets/img/team/Team-2.jpg" class="img-fluid" alt="" width="200px"></div>
               <div class="member-info">
                 <h4>Safna Aulia Salsabila</h4>
                 <span>Anggota Kelompok KOMODO</span>
