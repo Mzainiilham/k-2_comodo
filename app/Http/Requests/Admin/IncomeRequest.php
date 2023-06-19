@@ -26,7 +26,7 @@ class IncomeRequest extends FormRequest
         return [
             'income_category_id' => 'required',
             'entry_date' => 'required',
-            'amount' => 'required',
+            'amount' => 'required|numeric|min:1',
             'description' => 'required'
         ];
     }

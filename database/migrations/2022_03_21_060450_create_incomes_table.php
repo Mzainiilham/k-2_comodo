@@ -18,7 +18,7 @@ class CreateIncomesTable extends Migration
             $table->foreignId('income_category_id')->constrained()->cascadeOnDelete();
             $table->text('description')->nullable();
             $table->date('entry_date')->nullable();
-            $table->string('amount');
+            $table->integer('amount')->unsigned();
             $table->foreignId('currency_id')->constrained();
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
