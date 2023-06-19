@@ -2,7 +2,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/') }}">
-                <div class="sidebar-brand-text mx-3">{{ __('Komodo') }}</div>
+                <div class="sidebar-brand-text mx-3">{{ __('ODEYO') }}</div>
             </a>
 
             <!-- Divider -->

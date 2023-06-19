@@ -53,7 +53,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Logout</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"> <strong>Logout</strong> </span>
                                 {{-- <img class="img-profile rounded-circle"
                                     src="{{ asset('backend/img/undraw_profile.svg') }}"> --}}
                             </a>
@@ -86,7 +86,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Komodo 2023</span>
+                        <span>Copyright &copy;<strong>Komodo 2023</strong> </span>
                     </div>
                 </div>
             </footer>
@@ -119,7 +119,7 @@
                   <form action="" method="POST">
                     @csrf
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <button class="btn btn-primary" type="submit">Logout</button>
+                    <button class="btn btn-primary" type="submit"><strong>Logout</strong> </button>
                   </form>
                 </div>
             </div>
