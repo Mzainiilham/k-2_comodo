@@ -39,9 +39,9 @@
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-                    
+
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+                    <button id="sidebarToggleTop" class="btn btn-dark rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
 
@@ -53,9 +53,9 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">John Doe</span>
-                                <img class="img-profile rounded-circle"
-                                    src="{{ asset('backend/img/undraw_profile.svg') }}">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Logout</span>
+                                {{-- <img class="img-profile rounded-circle"
+                                    src="{{ asset('backend/img/undraw_profile.svg') }}"> --}}
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -86,7 +86,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Sb-Admin</span>
+                        <span>Copyright &copy; Komodo 2023</span>
                     </div>
                 </div>
             </footer>

@@ -1,26 +1,18 @@
-# Laravel 8 - Expense application
+## Cara menjalankan Aplikasi
 
-## Screenshots
-
-![preview img](/preview.png)
-
-![preview img](/preview2.png)
-
-## Run Locally
-
-Clone the project
+Clone project
 
 ```bash
-  git clone https://github.com/abdulaziz-m5u/laravel-expense-app.git project-name
+  git clone https://github.com/Mzainiilham/k-2_comodo.git
 ```
 
-Go to the project directory
+Pergi ke file aplikasi
 
 ```bash
   cd project-name
 ```
 
--   Copy .env.example file to .env and edit database credentials there
+-   Copy .env.example file menjadi .env dan edit database
 
 ```bash
     composer install

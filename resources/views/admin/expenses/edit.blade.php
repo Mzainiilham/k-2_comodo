@@ -5,7 +5,7 @@
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('Edit expense') }}
+                    {{ __('Edit Pengeluaran') }}
                 </h6>
                 <div class="ml-auto">
                     <a href="{{ route('admin.expenses.index') }}" class="btn btn-primary">

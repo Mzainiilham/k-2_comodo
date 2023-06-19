@@ -5,14 +5,14 @@
     <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('Incomes') }}
+                    {{ __('Pemasukan') }}
                 </h6>
                 <div class="ml-auto">
                     <a href="{{ route('admin.incomes.create') }}" class="btn btn-primary">
                         <span class="icon text-white-50">
                             <i class="fa fa-plus"></i>
                         </span>
-                        <span class="text">{{ __('New') }}</span>
+                        <span class="text">{{ __('Tambah') }}</span>
                     </a>
                 </div>
             </div>
@@ -21,10 +21,10 @@
                     <thead>
                     <tr>
                         <th>No</th>
-                        <th>Income Name</th>
-                        <th>Amount</th>
-                        <th>Date</th>
-                        <th class="text-center" style="width: 30px;">Action</th>
+                        <th>Nama Pemasukan</th>
+                        <th>Jumlah</th>
+                        <th>Tanggal</th>
+                        <th class="text-center" style="width: 30px;">Aksi</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -39,7 +39,7 @@
                                     <a href="{{ route('admin.incomes.edit', $income) }}" class="btn btn-sm btn-primary">
                                         <i class="fa fa-edit"></i>
                                     </a>
-                                    <form onclick="return confirm('are you sure !')" action="{{ route('admin.incomes.destroy', $income) }}"
+                                    <form onclick="return confirm('emang koe yakin ?!')" action="{{ route('admin.incomes.destroy', $income) }}"
                                     method="POST">
                                     @csrf
                                     @method('DELETE')

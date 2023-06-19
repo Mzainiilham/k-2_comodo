@@ -5,7 +5,7 @@
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('Edit income category') }}
+                    {{ __('Edit Kategori Pemasukan') }}
                 </h6>
                 <div class="ml-auto">
                     <a href="{{ route('admin.income_categories.index') }}" class="btn btn-primary">

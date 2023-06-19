@@ -5,14 +5,14 @@
     <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('Income categories') }}
+                    {{ __('Kategori Pemasukan') }}
                 </h6>
                 <div class="ml-auto">
                     <a href="{{ route('admin.income_categories.create') }}" class="btn btn-primary">
                         <span class="icon text-white-50">
                             <i class="fa fa-plus"></i>
                         </span>
-                        <span class="text">{{ __('New') }}</span>
+                        <span class="text">{{ __('Tambah') }}</span>
                     </a>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                     <thead>
                     <tr>
                         <th>No</th>
-                        <th>Name</th>
+                        <th>Nama</th>
                         <th class="text-center" style="width: 30px;">Action</th>
                     </tr>
                     </thead>
@@ -35,7 +35,7 @@
                                     <a href="{{ route('admin.income_categories.edit', $income_category) }}" class="btn btn-sm btn-primary">
                                         <i class="fa fa-edit"></i>
                                     </a>
-                                    <form onclick="return confirm('are you sure !')" action="{{ route('admin.income_categories.destroy', $income_category) }}"
+                                    <form onclick="return confirm('emang koe yakin ?!')" action="{{ route('admin.income_categories.destroy', $income_category) }}"
                                     method="POST">
                                     @csrf
                                     @method('DELETE')

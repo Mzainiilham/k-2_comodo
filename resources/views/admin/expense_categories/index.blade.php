@@ -35,7 +35,7 @@
                                     <a href="{{ route('admin.expense_categories.edit', $expense_category) }}" class="btn btn-sm btn-primary">
                                         <i class="fa fa-edit"></i>
                                     </a>
-                                    <form onclick="return confirm('are you sure !')" action="{{ route('admin.expense_categories.destroy', $expense_category) }}"
+                                    <form onclick="return confirm('emang koe yakin ?!')" action="{{ route('admin.expense_categories.destroy', $expense_category) }}"
                                     method="POST">
                                     @csrf
                                     @method('DELETE')

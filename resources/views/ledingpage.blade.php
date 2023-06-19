@@ -10,23 +10,23 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/download.png" rel="icon">
-  <link href="assets/img/download.png" rel="apple-touch-icon">
+  <link href="assetss/img/download.png" rel="icon">
+  <link href="assetss/img/download.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assetss/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assetss/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assetss/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assetss/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assetss/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assetss/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assetss/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assetss/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha
@@ -100,7 +100,7 @@
 
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <img src="assetss/img/hero-img.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -135,80 +135,55 @@
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" width="200px"></div>
               <div class="member-info">
                 <h4>Ady Putra Ramadhan</h4>
                 <span>Ketua Kelompok KOMODO</span>
                 <p>IST AKPRIND YOGYAKARTA</p>
-                <div class="social">
-                  <a href="https://www.twitter.com/"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
-                  <a href="https://www.instagram.com/adypr_____11"><i class="ri-instagram-fill"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assetss/img/team/team-4.jpeg" class="img-fluid" alt="" width="200px"></div>
               <div class="member-info">
-                <h4>Safna Aulia Salsabila</h4>
+                <h4>Heru Setiawan Saputra</h4>
                 <span>Anggota Kelompok KOMODO</span>
-                <p>Universitas Putra Bangsa KEBUMEN</p>
-                <div class="social">
-                  <a href="https://www.twitter.com/"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
-                  <a href="https://www.instagram.com/sfnauliasal_"><i class="ri-instagram-fill"></i></a>
-                </div>
+                <p>Universitas PGRI SEMARANG</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assetss/img/team/team-3.jpg" class="img-fluid" alt="" width="200px"></div>
               <div class="member-info">
                 <h4>M. Zaini Ilham</h4>
                 <span>Anggota Kelompok KOMODO</span>
                 <p>STMIK SAYIKH ZAINUDDIN LOMBOK TIMUR</p>
-                <div class="social">
-                  <a href="https://www.twitter.com/"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
-                  <a href="https://www.instagram.com/zainiilham_"><i class="ri-instagram-fill"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-5.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assetss/img/team/team-5.jpg" class="img-fluid" alt="" width="200px"></div>
               <div class="member-info">
                 <h4>Lukman Yahya Saputra</h4>
                 <span>Anggota Kelompok KOMODO</span>
                 <p>Universitas AMIKOM PURWOKERTO</p>
-                <div class="social">
-                  <a href="https://www.twitter.com/"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
-                  <a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assetss/img/team/team-2.jpeg" class="img-fluid" alt="" width="200px"></div>
               <div class="member-info">
-                <h4>Heru Setiawan Saputra</h4>
+                <h4>Safna Aulia Salsabila</h4>
                 <span>Anggota Kelompok KOMODO</span>
-                <p>Universitas PGRI SEMARANG</p>
-                <div class="social">
-                  <a href="https://www.twitter.com/"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a>
-                  <a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a>
-                </div>
+                <p>Universitas Putra Bangsa KEBUMEN</p>
               </div>
             </div>
           </div>
@@ -218,9 +193,9 @@
       </div>
     </section><!-- End Team Section -->
 
-    <!--
+
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-       KELOMPOK 2 <a href="https://bootstrapmade.com/">KOMODO</a>
+      <strong> KELOMPOK 2 <a href="https://bootstrapmade.com/">KOMODO</a> </strong>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -229,13 +204,13 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assetss/vendor/aos/aos.js"></script>
+  <script src="assetss/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assetss/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assetss/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assetss/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assetss/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assetss/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

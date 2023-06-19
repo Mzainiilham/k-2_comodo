@@ -2,12 +2,26 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+    <!-- Section: Design Block -->
+<section class="text-center">
+    <!-- Background image -->
+    <div class="p-5 bg-image" style="
+          background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg');
+          height: 300px;
+          "></div>
+    <!-- Background image -->
 
-                <div class="card-body">
+    <div class="card mx-4 mx-md-5 shadow-5-strong" style="
+          margin-top: -100px;
+          background: hsla(0, 0%, 100%, 0.8);
+          backdrop-filter: blur(30px);
+          ">
+      <div class="card-body py-5 px-md-5">
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="fw-bold mb-5">Registrasi Sekarang !!!!!</h2>
+            <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
@@ -81,7 +95,7 @@
                         </div>
 
                         <div class="row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-1 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
@@ -89,8 +103,20 @@
                         </div>
                     </form>
                 </div>
-            </div>
+
+              <!-- Register buttons -->
+              <div class="text-center">
+                <p>atau sudah punya akun ? @guest
+                    @if (Route::has('login'))
+                            <a class="text" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    @endif
+            @endguest</p>
+
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </section>
 @endsection

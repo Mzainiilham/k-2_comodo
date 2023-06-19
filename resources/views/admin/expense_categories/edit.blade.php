@@ -5,14 +5,14 @@
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('Edit expense category') }}
+                    {{ __('Edit Kategori Pengeluaran') }}
                 </h6>
                 <div class="ml-auto">
                     <a href="{{ route('admin.expense_categories.index') }}" class="btn btn-primary">
                         <span class="icon text-white-50">
                             <i class="fa fa-home"></i>
                         </span>
-                        <span class="text">{{ __('Go Back') }}</span>
+                        <span class="text">{{ __('Kembali') }}</span>
                     </a>
                 </div>
             </div>
